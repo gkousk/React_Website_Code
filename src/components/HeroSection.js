@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>ADVENTURE AWAITS</h1>
+      <h1>BURGER HOUSE</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
         <Button
@@ -20,7 +20,6 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
         >
           WATCH TRAILER <i className='far fa-play-circle' />
         </Button>
